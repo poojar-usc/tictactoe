@@ -2,7 +2,7 @@ $green: #24ff8e;
 $orange: #ff0000;
 $dark_green: #125d0b;
 
-$colors : #fedc00 0,
+/*$colors : #fedc00 0,
 			#fedc00 1/18 * 100%,
 			#fcb712 0,
 			#fcb712 2/18 * 100%,
@@ -37,15 +37,16 @@ $colors : #fedc00 0,
 			#becc2f 0,
 			#becc2f 17/18 * 100%,
 			#e0d81d 0,
-			#e0d81d 18/18 * 100%;
+			#e0d81d 18/18 * 100%;*/
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background: 
+  font-family: 'Papyrus', fantasy;
+  font-weight: bold;
+  /*background: 
 		repeating-radial-gradient(circle at bottom left, $colors),
 		repeating-radial-gradient(circle at bottom right, $colors);
     background-blend-mode: hard-light;
-    height: 103vh;
+    height: 103vh;*/
   color: #fff;
   padding: 0;
   margin: 0;
@@ -115,7 +116,6 @@ button {
 
   span {
     font-weight: normal;
-    
   }
 }
 
