@@ -54,7 +54,6 @@ button {
     li {
       list-style: none;
       text-align: left;
-      font-family: 'Papyrus', fantasy;
       &:before {
         content: '';
         border-radius: 50%;
@@ -68,6 +67,7 @@ button {
 
       .btn-move {
         color: #fff;
+        font-family: 'Papyrus', fantasy;
         &.active {
           font-weight: bold;
           color: $green;
