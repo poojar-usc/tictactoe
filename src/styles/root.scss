@@ -1,6 +1,7 @@
 $green: #24ff8e;
 $orange: #ff0000;
 $dark_green: #125d0b;
+$purple: #5900b3;
 
 /*$colors : #fedc00 0,
 			#fedc00 1/18 * 100%,
@@ -76,6 +77,10 @@ button {
   color: $green;
 }
 
+.text-purple {
+  color: $purple;
+}
+
 .text-orange {
   color: $orange;
 }
@@ -131,7 +136,7 @@ button {
   margin-top: 25px;
   transition: all 0.2s;
   background-color: #003366;
-  box-shadow: 0px 0px 0px 1px $orange;
+  box-shadow: 0px 0px 0px 1px $purple;
   &.active {
     background-color: $orange;
     box-shadow: none;
