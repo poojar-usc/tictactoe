@@ -45,6 +45,7 @@ body {
   background-image: url('https://www.theinterrobang.ca/images/interrobang/112720/K7LTVS685UJ491DF.jpg');
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
   /*background: 
 		repeating-radial-gradient(circle at bottom left, $colors),
 		repeating-radial-gradient(circle at bottom right, $colors);
@@ -129,7 +130,7 @@ button {
   padding: 12px 18px;
   margin-top: 25px;
   transition: all 0.2s;
-  background-color: #ce9800;
+  background-color: #5900b3;
   box-shadow: 0px 0px 0px 1px $orange;
   &.active {
     background-color: $orange;
