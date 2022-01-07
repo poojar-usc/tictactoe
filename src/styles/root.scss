@@ -49,12 +49,12 @@ button {
   margin-bottom: 20px;
   .history {
     display: inline-block;
-    font-family: 'Papyrus', fantasy;
     padding: 0;
     margin: 0;
     li {
       list-style: none;
       text-align: left;
+      font-family: 'Papyrus', fantasy;
       &:before {
         content: '';
         border-radius: 50%;
